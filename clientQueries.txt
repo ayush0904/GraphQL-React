@@ -96,3 +96,11 @@ mutation SigninUser($userSignin:UserSigninInput!){
 }
 
 --------------------------
+
+
+mutation createQuote{
+  quote:createQuote(name:"i am another nice quote")
+}
+{
+  "authorization":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODY4NzAyNzd9.7g4n8ZIsHAp8PDpIN16HmYVGtILF2hQIlUfvl51PvNg"
+}
